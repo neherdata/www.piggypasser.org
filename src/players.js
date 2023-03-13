@@ -7,5 +7,4 @@ class Player {
 
 let players = [];
 
-
-// player data structure 
+// player data structure
