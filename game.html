@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<title>GamePage</title>
+		<link rel="stylesheet" href="game.css" />
+	</head>
+	<body style="padding: bottom 100px;">
+		<div id="header">
+			<div id="home">
+				<img src="assets/back_arrow.png" style="max-height: 16px; max-width: 16px;" />
+				<a href="index.html">Home</a>
+			</div>
+			<div id="round-info">
+				<p id="round-num">Round 0</p>
+				<p id="round-score">0</p>
+			</div>
+			<div id="header"
+			<div id="rules">
+				<button id="rules-btn" onclick="openRules()">Rules</button>
+			</div>
+			</div>
+		</div>
+		<div id="players">
+			</div>
+		</div>
+		<div id="pigs-container">
+			<button onclick="pigSelected(card1)" class="pig-btn" id="sider">
+				<img class="pig-img" src="/assets/side.png" />
+				Sider
+			</button>
+			<button onclick="pigSelected(card2)" class="pig-btn" id="razorback">
+				<img class="pig-img" src="/assets/razorback.png" />
+				Razorback
+			</button>
+			<button onclick="pigSelected(card3)" class="pig-btn" id="trotter">
+				<img class="pig-img" src="/assets/trotter.png" />
+				Trotter
+			</button>
+			<button onclick="pigSelected(card4)" class="pig-btn" id="snouter">
+				<img class="pig-img" src="/assets/snouter.png" />
+				Snouter
+			</button>
+			<button onclick="pigSelected(card5)" class="pig-btn" id="leaning">
+				<img class="pig-img" src="/assets/leaning.png" />
+				Leaning Jowler
+			</button>
+			<button onclick="pigOutSelected(card6)" class="pig-btn" id="pigout">
+				<img class="pig-img" src="/assets/pigout.png" />
+				Pigout
+				<button onclick="oinkerSelected(card7)" class="pig-btn-oinker" id="oinker">
+					<img class="pig-img" src="/assets/oink.png" />
+					Oinker
+			</button>
+		</div>
+		<div id="footer">
+		<div id="main-btns-container">
+			<button onclick="confirmRoll()" class="main-btn" id="confirmRoll">
+				Done
+			</button>
+			<button id="bank" onclick="bank()" class="main-btn" disabled="true">Bank</button>
+		</div>
+	</div>
+		<div class="overlay" id="overlay" onclick="return false;"></div>
+		<div class="modal" id="modal">
+			<button class="modal-close" onclick="closeRules()">x</button>
+			<div class="modal-content">
+				<h2>How to play</h2>
+				<p>Roll both pigs together. Points are scored depending on how the pigs land. Tap the "PIGS" that you rolled. Tap "CONFIRM".</p>
+				<p>Now you must decide whether to stop rolling and score, or keep rolling and try to add points to your score.</p>
+				<p>If you choose to stop rolling tap "BANK" to bank your round points</p>
+				<p>You may continue to roll the pigs again and again on your turn. You may keep rolling until one of the following occurs:</p>
+				<p> * You decide to stop rolling add score.</p>
+				<p> * You roll a "PIG OUT" which means you score 0 points for this turn.</p>
+				<p> * You roll a "OINKER" which means you lose <em>all</em> your points accumulated in the game so far.</p>
+			</div>
+		</div>
+	</body>
+	<script src="game.js"></script>
+</html>
