@@ -44,7 +44,7 @@ body {
   font-family: "RidleyGrotesk-Bold";
 }
 
-#new_game {
+#pill-button {
   display: inline-block;
   width: 100%;
   max-width: 700px;
