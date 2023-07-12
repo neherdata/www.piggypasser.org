@@ -17,8 +17,8 @@ p {
   font-size: 80px;
 }
 
-#newButton {
-  margin: 100px auto auto auto;
+#pill-button {
+  margin: auto;
   width: 120px;
   color: white;
   text-transform: uppercase;
