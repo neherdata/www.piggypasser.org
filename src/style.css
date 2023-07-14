@@ -1,23 +1,31 @@
-body {
-  background-color: #f2c94c;
-  font-family: Helvetica, Arial, sans-serif;
+@font-face {
+  font-family: "RidleyGrotesk-Bold";
+  src: url("assets/fonts/RidleyGrotesk-Bold.woff") format("woff");
 }
 
-#pig-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  background-color: rgba(187, 122, 122, 0.288);
+body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+  background-image: url("assets/background.jpeg");
+  background-color: transparent;
+  font-family: "RidleyGrotesk-Bold";
+}
+
+#pig {
+  width: fit-content(20em);
+  margin: auto;
+  padding: 15px;
 }
 p {
   margin: 0;
 }
 #title {
+  color: white;
   text-transform: uppercase;
   text-align: center;
   margin-top: 25px;
-  font-size: 80px;
+  font-size: 60px;
 }
 
 #pill-button {
@@ -27,35 +35,32 @@ p {
   text-transform: uppercase;
   background-color: black;
   border-radius: 100px;
-  border: solid 2px white;
-  padding: 20px;
+  border: solid 6px white;
+  padding: 10px;
   text-align: center;
-  box-shadow: 0px 5px rgb(145, 114, 14), 0px 10px rgb(145, 114, 14),
-    0px 15px rgb(145, 114, 14), 0px 20px rgb(145, 114, 14),
-    0px 25px rgb(145, 114, 14), 0px 30px rgb(145, 114, 14);
+}
+#tim-button {
+  margin: auto;
+  width: 120px;
+  color: white;
+  text-transform: uppercase;
+  background-color: black;
+  border-radius: 100px;
+  border: solid 6px white;
+  padding: 10px;
+  text-align: center;
+}
+
+#buttons {
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 80px;
 }
 
 a {
   color: white;
   text-decoration: none;
   padding: 15px;
-}
-
-#learn {
-  position: fixed;
-  bottom: 50px;
-  left: 0;
-  width: 100%;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.player {
-  font-size: 65px;
-  font-weight: 900;
-  padding-bottom: 20px;
-}
-
-#player-list {
-  margin: 100px 24px;
 }
