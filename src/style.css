@@ -7,7 +7,7 @@ body {
   max-width: 720px;
   margin: 0 auto;
   padding-bottom: 200px;
-  background-image: url("assets/background.jpeg");
+  background-image: url("assets/back0.png");
   background-color: transparent;
   font-family: "RidleyGrotesk-Bold";
 }
@@ -33,9 +33,9 @@ p {
   color: white;
   text-align: right;
   font-size: 20px;
-  position:absolute;
-  bottom:0;
-  right:0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 #pill-button {
