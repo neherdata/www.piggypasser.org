@@ -41,4 +41,4 @@
 
 # PiggyPasser
 
-[![Azure Static Web Apps CI/CD](https://github.com/neherdata/www.piggypasser.org/actions/workflows/azure-static-web-apps-yellow-cliff-07232030f.yml/badge.svg?branch=main)](https://github.com/neherdata/www.piggypasser.org/actions/workflows/azure-static-web-apps-yellow-cliff-07232030f.yml)
+[![Deploy Static PiggyPasser to GitHub Pages](https://github.com/neherdata/www.piggypasser.org/actions/workflows/static.yml/badge.svg?branch=main)](https://github.com/neherdata/www.piggypasser.org/actions/workflows/static.yml)
