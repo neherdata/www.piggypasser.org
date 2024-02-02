@@ -18,9 +18,11 @@ body {
   padding: 15px;
   display: block;
 }
+
 p {
   margin: 0;
 }
+
 #title {
   color: white;
   text-transform: uppercase;
@@ -49,6 +51,7 @@ p {
   padding: 10px;
   text-align: center;
 }
+
 #tim-button {
   margin: auto;
   width: 120px;

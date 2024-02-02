@@ -244,6 +244,7 @@ button:disabled {
   opacity: 0;
   transition: opacity 0.3s;
 }
+
 .modal-close {
   position: absolute;
   top: 15px;
@@ -268,6 +269,7 @@ button:disabled {
   font-size: 14px;
   line-height: 150%;
 }
+
 .overlay {
   visibility: hidden;
   position: fixed;
@@ -294,6 +296,7 @@ button:disabled {
     max-width: 100px;
     min-width: 130px;
   }
+
   .main-btn {
     min-height: 46px;
     font-size: 1em;

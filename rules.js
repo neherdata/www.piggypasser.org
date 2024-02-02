@@ -1,21 +1,21 @@
 let instructions;
 
 function closeRules() {
-    let modal = document.getElementById("modal");
-    let overlay = document.getElementById("overlay");
-    modal.classList.remove("isVisible");
-    overlay.classList.remove("isVisible");
+  let modal = document.getElementById("modal");
+  let overlay = document.getElementById("overlay");
+  modal.classList.remove("isVisible");
+  overlay.classList.remove("isVisible");
 }
- 
+
 function openRules() {
-    let modal = document.getElementById("modal");
-    let overlay = document.getElementById("overlay");
-    modal.classList.add("isVisible");
-    overlay.classList.add("isVisible");
+  let modal = document.getElementById("modal");
+  let overlay = document.getElementById("overlay");
+  modal.classList.add("isVisible");
+  overlay.classList.add("isVisible");
 }
- 
+
 closeRules();
- 
+
 /*
  
 RULES
